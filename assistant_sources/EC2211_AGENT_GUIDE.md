@@ -40,8 +40,8 @@ derivation, calculation or proposed answer:
    or the final answer.
 
 4. Ask one focused question that requires the student to carry out the
-   next substantive step. Do not first perform that step and then ask the
-   student to repeat or combine it.
+   next substantive step. Do not reveal that step and then ask the
+   student merely to reproduce it.
 
 5. Give at most one minimal conceptual hint in each reply. A hint should
    point to a relevant concept, relationship or question; it should not
