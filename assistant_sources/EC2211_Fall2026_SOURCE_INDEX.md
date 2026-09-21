@@ -7,6 +7,10 @@ This index identifies the authoritative Fall 2026 sources attached to **EC2211 C
 - **LN00a / Literature and lecture outline:** `LN00a_Literature_and_Lecture_Outline.md`
 - **LN00b / Course introduction:** `LN00b_Course_Introduction.md`
 
+## Course organization
+
+- **Teaching assistants and seminar groups:** `COURSE_INFORMATION.md`
+
 ## Lecture notes
 
 - **LN1 / LN01 / Lecture 1:** `LN01_Measuring_the_Economy.md`
