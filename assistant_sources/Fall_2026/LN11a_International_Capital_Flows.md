@@ -255,9 +255,11 @@ Dollar dominance may benefit the United States through:
 
 Miran's argument can be summarized as a chain:
 
-$$demand for dollar assets
+$$\begin{aligned}
+    \text{demand for dollar assets}
         & \Longrightarrow  strong dollar\\
-        & \Longrightarrow  trade deficit and pressure on manufacturing.$$
+        & \Longrightarrow  \text{trade deficit and pressure on manufacturing.}
+\end{aligned}$$
 
     This is a causal hypothesis, not an identity. Each arrow must be assessed:
 - How large is the effect of reserve demand on the dollar?

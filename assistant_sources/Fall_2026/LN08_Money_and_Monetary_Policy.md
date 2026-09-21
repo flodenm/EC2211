@@ -42,10 +42,12 @@ Today we use the IS-MP-PC and AS-AD models to organize several practical questio
 
 Recall the two central equations from LN6–LN7:
 
-$$AD:
+$$\begin{aligned}
+    AD:
       &\widetilde{Y}_t=\alpha_t-\beta\mu(\pi_t-\pi^*)\\[0.4em]
     AS:
-      &\pi_t=\pi_t^e+\kappa\widetilde{Y}_t+\sigma_t$$
+      &\pi_t=\pi_t^e+\kappa\widetilde{Y}_t+\sigma_t
+\end{aligned}$$
 Positive demand shock
         $\alpha_t$ rises. Inflation and the output gap tend to rise together.
 Adverse cost shock

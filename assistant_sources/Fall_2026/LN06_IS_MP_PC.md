@@ -373,12 +373,14 @@ $$\boxed{\pi_t-\pi_{t-1}=\kappa\widetilde{Y}_t+\sigma_t}$$
 
 ### The IS–MP–PC framework
 
-$$IS:
+$$\begin{aligned}
+    IS:
       &\widetilde{Y}_t=\alpha_t-\beta(r_t-\bar r)\\[0.5em]
     MP:
       &r_t=i_t-\pi^e_t=r^{MP}_t\\[0.5em]
     PC:
-      &\pi_t=\pi^e_t+\kappa\widetilde{Y}_t+\sigma_t$$
+      &\pi_t=\pi^e_t+\kappa\widetilde{Y}_t+\sigma_t
+\end{aligned}$$
 
   Within a period, take potential output, expected inflation, and the demand
   and cost shocks as given.

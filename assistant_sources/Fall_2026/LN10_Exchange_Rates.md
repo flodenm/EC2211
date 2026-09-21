@@ -286,10 +286,12 @@ $$
 
     where
 
-$$\alpha
+$$\begin{aligned}
+    \alpha
         &=\alpha_C+\alpha_G+\alpha_I+\alpha_{NX}-1
           +\beta_{NX}(r_t^w-\bar r)\\
-        \beta&=\beta_I+\beta_{NX}$$
+    \beta&=\beta_I+\beta_{NX}
+\end{aligned}$$
 
     The equation has the same form as before, but the slope and the intercept
     now contain open-economy forces.

@@ -54,8 +54,10 @@ The **financial account** records transactions in financial assets.
 
     Define $FA$ as:
 
-$$FA = {} & residents' net purchases of foreign assets \\
-        - {} & foreigners' net purchases of domestic assets$$
+$$\begin{aligned}
+FA ={}& \text{residents' net purchases of foreign assets} \\
+      &-\text{foreigners' net purchases of domestic assets}
+\end{aligned}$$
 
 - $FA>0$: residents make larger net purchases of foreign assets
 - $FA<0$: foreigners make larger net purchases of domestic assets
@@ -72,9 +74,11 @@ $$Y=C+I+G+NX.$$
 
     Add and subtract net taxes, $T$:
 
-$$NX
+$$\begin{aligned}
+    NX
         &=Y-C-G-I\\
-        &=(Y-T-C)+(T-G)-I.$$
+        &=(Y-T-C)+(T-G)-I.
+\end{aligned}$$
 
 - $Y-T-C$ is private saving
 - $T-G$ is government saving
@@ -187,9 +191,11 @@ $$NFI_t=i \times NIIP_t.$$
 
     Combining these equations with $NIIP_{t+1}=NIIP_t+CA_t$ gives
 
-$$NIIP_{t+1}
+$$\begin{aligned}
+    NIIP_{t+1}
         &=NIIP_t+NX_t+i \times NIIP_t\\
-        &=(1+i)NIIP_t+NX_t.$$
+        &=(1+i)NIIP_t+NX_t.
+\end{aligned}$$
 
     For a net debtor, net investment income is negative. Whether positive net
     exports are needed to stabilize the NIIP relative to GDP also depends on
