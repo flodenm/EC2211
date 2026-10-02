@@ -1,32 +1,38 @@
-# Lecture Notes 2: Production and the Solow Model
+# Lecture Notes 2: Physical Capital, Production, and the Solow Model
 
 **Course:** EC2211 Intermediate Macroeconomics, Stockholm University  
 **Instructor:** Martin Flodén  
 **Course version:** Fall 2026 (authoritative)
 
-This file is an agent-oriented rendering of the final Fall 2026 lecture source. Headings reproduce section and frame titles. Figure notes and nearby text should be used when answering questions about visuals.
+This file is an agent-oriented rendering of the Fall 2026 lecture source updated on October 2, 2026. Headings reproduce section and frame titles. Figure notes and nearby text should be used when answering questions about visuals.
 
 ## Introduction
 
-### Europe invests in computing capacity
+### Can investment fuel a growth boom?
 
-EU orders AI supercomputer The European Union has awarded a EUR 387.8 million contract for a new AI-focused supercomputer. It will be installed in Finland and is expected to become operational in 2027. Source: [Reuters, August 31, 2026](https://www.reuters.com/world/europe/europe-expands-ai-computing-network-with-390-million-order-frances-bull-2026-08-31/).
+**USD 500 billion for AI infrastructure**
 
-**How can a new supercomputer raise European output?**
+In January 2025, OpenAI and its partners announced the Stargate project, with plans to invest USD 500 billion over four years in AI infrastructure in the United States.
 
-### Capital or productivity?
+The investment would expand computing capacity through new data centers and equipment.
 
-A new AI supercomputer combines several ingredients:
+Source: [OpenAI and SoftBank, January 21, 2025](https://openai.com/index/announcing-the-stargate-project/).
 
-- **Physical capital, $K$:** processors, servers, storage, networking equipment, and buildings
+**Can more investment generate permanently higher growth?**
 
-- **Labor input, $L$:** the labor used to build, operate, and apply the system
+### More capital, better technology, or both?
 
-- **Productivity, $A$:** algorithms, knowledge, organization, and the efficiency with which capital and labor are combined
+AI illustrates several ingredients in production:
 
-Today we focus on physical capital and capital accumulation.
+- **Physical capital, $K$:** more processors, servers and data centers
 
-We return to the sources of productivity growth in Lectures 3 and 4.
+- **Labor input, $L$:** people operating the systems and using them to produce goods and services
+
+- **Productivity, $A$:** better methods and organization that allow the same capital and labor to produce more
+
+Today: What can capital accumulation achieve on its own?
+
+In Lectures 3 and 4: What drives productivity growth?
 
 ### From accounting to a production function
 
@@ -34,13 +40,13 @@ Last lecture, we used the accounting identity $$\frac{Y}{N}
         =
         \underbrace{\frac{Y}{H}}_{\text{output per hour}}
         \times
-        \underbrace{\frac{H}{N}}_{\text{hours per person}}.$$
+        \underbrace{\frac{H}{N}}_{\text{hours per person}}$$
 
 - This decomposition measured output per hour
 
 - It did not explain why output per hour differs across countries or changes over time
 
-Today, we introduce physical capital into production. Following Jones, we denote labor input by $L$: $$Y=AK^\alpha L^{1-\alpha}.$$
+Today, we introduce physical capital into production. Following Jones, we denote labor input by $L$: $$Y=AK^\alpha L^{1-\alpha}$$
 
 ### Questions
 
@@ -60,7 +66,7 @@ Today, we introduce physical capital into production. Following Jones, we denote
 
 Literature:
 
-- Jones (2024), chapters 4–5
+- Jones (2024), chapters 4--5
 
 ## Physical capital and production
 
@@ -68,18 +74,19 @@ Literature:
 
 - $K_t$ is the stock of productive assets available at time $t$
 
-  - Machinery, factories, vehicles, infrastructure, computers, …
+    - Machinery, factories, vehicles, infrastructure, computers, ...
 
 - $I_t$ is investment: production of new capital goods during period $t$
 
 - Capital depreciates: it wears out or becomes obsolete
 
-The capital stock therefore evolves according to $$
-        K_{t+1}=(1-\delta)K_t+I_t,$$ where $\delta$ is the depreciation rate.
+The capital stock therefore evolves according to $$K_{t+1}=(1-\delta)K_t+I_t,$$ where $\delta$ is the depreciation rate.
 
 ### The production function
 
-Production with capital and labor $$Y=F(K,L)$$
+**Production with capital and labor**
+
+$$Y=F(K,L)$$
 
 |                  |                          |
 |-----------------:|:-------------------------|
@@ -90,15 +97,18 @@ Production with capital and labor $$Y=F(K,L)$$
 
 The production function describes the maximum output that can be produced from given quantities of capital and labor, for a given technology.
 
-### The Cobb–Douglas production function
+### The Cobb--Douglas production function
 
-Cobb–Douglas $$Y=AK^\alpha L^{1-\alpha}, \qquad \alpha\in(0,1).$$
+**Cobb--Douglas**
 
-|            |                                                |
-|-----------:|:-----------------------------------------------|
-|        $A$ | = total factor productivity (TFP)              |
-|   $\alpha$ | = elasticity of output with respect to capital |
-| $1-\alpha$ | = elasticity of output with respect to labor   |
+$$Y=AK^\alpha L^{1-\alpha}, \qquad \alpha\in(0,1).$$
+
+|          |                                                      |
+|---------:|:-----------------------------------------------------|
+|      $A$ | = total factor productivity (TFP)                    |
+| $\alpha$ | = parameter governing how output responds to capital |
+
+We will later see that, under perfect competition, $\alpha$ also equals capital's share of income.
 
 What happens to output if we increase one input while holding the other fixed?
 
@@ -120,24 +130,24 @@ The **marginal product of labor** is $$MPL \equiv \frac{\partial Y}{\partial L}=
 
 It measures the increase in output from a small increase in labor, holding capital constant.
 
-### Marginal products under Cobb–Douglas
+### Marginal products under Cobb--Douglas
 
-Recall that $$\frac{\partial}{\partial x}x^\alpha=\alpha x^{\alpha-1}.$$
+Recall that $$\frac{\partial}{\partial x}x^\alpha=\alpha x^{\alpha-1}$$
 
 For $Y=AK^\alpha L^{1-\alpha}$, $$MPK=\alpha AK^{\alpha-1}L^{1-\alpha}
-           =\alpha A\left(\frac{L}{K}\right)^{1-\alpha}.$$
+           =\alpha A\left(\frac{L}{K}\right)^{1-\alpha}$$
 
-- More capital raises output, but $MPK$ falls as $K$ increases when labor is held fixed
+- More capital raises output, but $MPK$ falls as $K$ increases when labor is held fixed.
 
-- The production function displays **diminishing marginal product of capital**
+- The production function displays **diminishing marginal product of capital.**
 
 ### Diminishing marginal product of capital
+
+Figure 4.1 in Jones (2024).
 
 **Figure source:** `MACRO6_FIG04.01.jpg`
 
 **Figure description:** Concave production function relating output (tons of ice cream) to capital while other inputs are held fixed. Equal additions to capital raise output by progressively smaller amounts, illustrating a positive but diminishing marginal product of capital.
-
-Figure 4.1 in Jones (2024).
 
 ### Marginal product of labor
 
@@ -164,54 +174,62 @@ A function with this property displays **constant returns to scale**.
 
 ### Competitive firms and profit maximization
 
-A competitive firm chooses capital and labor to maximize profits: $$\max_{K,L}\ \Pi(K,L)
+A perfectly competitive firm chooses capital and labor to maximize profits: $$\max_{K,L}\ \Pi(K,L)
         =AK^\alpha L^{1-\alpha}-rK-wL,$$ where $w$ is the price of one unit of labor input and $r$ is the rental rate of capital.
 
 The first-order conditions are $$\begin{aligned}
-        MPK &= r, \\
-        MPL &= w. 
+        MPK &= r \\
+        MPL &= w 
     
 \end{aligned}$$
 
 The firm hires each input until its marginal product equals its price.
 
+### Exercise: How much capital should the firm rent?
+
+1.  Why does the $MPK$ curve slope downward?
+
+2.  At $K_1$, should the firm rent more or less capital? Why?
+
+**Figure description:** The horizontal axis is capital, $K$, and the vertical axis is $MPK$ and the rental rate. A downward-sloping $MPK$ curve intersects a horizontal rental-rate line $r$. The initial capital stock $K_1$ lies to the left of the intersection, where $MPK>r$.
+
 ### Factor payments and income shares
 
-Under Cobb–Douglas, equations (foc_capital)–(foc_labor) imply $$r=\alpha\frac{Y}{K}
+Under Cobb--Douglas, equations (foc_capital)--(foc_labor) imply $$r=\alpha\frac{Y}{K}
         \qquad \text{and} \qquad
-        w=(1-\alpha)\frac{Y}{L}.$$
+        w=(1-\alpha)\frac{Y}{L}$$
 
 Therefore, $$\underbrace{\frac{rK}{Y}}_{\text{capital share}}=\alpha
         \qquad \text{and} \qquad
-        \underbrace{\frac{wL}{Y}}_{\text{labor share}}=1-\alpha.$$
+        \underbrace{\frac{wL}{Y}}_{\text{labor share}}=1-\alpha$$
 
 Jones uses $\alpha=1/3$. Why might this be a reasonable approximation?
 
-### Labor’s share of GDP ($1-\alpha$)
+### Labor's share of GDP ($1-\alpha$)
+
+Figure 2.3 in Jones (2024).
 
 **Figure source:** `MACRO6_FIG02.03.jpg`
 
 **Figure description:** U.S. labor share of GDP from 1950 to the early 2020s. The share fluctuates around roughly two-thirds for much of the period but trends downward, reaching about 0.61 near the end.
 
-Figure 2.3 in Jones (2024).
+### Capital's share of GDP in Sweden ($\alpha$)
 
-### Capital’s share of GDP in Sweden ($\alpha$)
+Source: [Ekonomistas](https://ekonomistas.se/2024/01/17/konjunkturinstitutet-replik-om-vinstandelens-utveckling/).
 
 **Figure source:** `profitshare_se.png`
 
 **Figure description:** Swedish profit shares from 1994 to 2023 under several definitions. The series are cyclical and differ in level; the business-sector measures are generally higher than the whole-economy measure. The source emphasizes that the measured capital share depends on sector and adjustments for housing and self-employment.
 
-Source: [Ekonomistas](https://ekonomistas.se/2024/01/17/konjunkturinstitutet-replik-om-vinstandelens-utveckling/).
-
 ### Payments to capital and labor add up to GDP
 
-We showed that, under perfect competition and Cobb–Douglas production, $$\underbrace{\frac{rK}{Y}}_{\text{capital share}}=\alpha
+We showed that, under perfect competition and Cobb--Douglas production, $$\underbrace{\frac{rK}{Y}}_{\text{capital share}}=\alpha
         \qquad \text{and} \qquad
-        \underbrace{\frac{wL}{Y}}_{\text{labor share}}=1-\alpha.$$
+        \underbrace{\frac{wL}{Y}}_{\text{labor share}}=1-\alpha$$
 
 Total payments to capital owners and workers are therefore $$rK+wL
         =\alpha Y+(1-\alpha)Y
-        =Y.$$
+        =Y$$
 
 Thus, in this model, all GDP is paid to capital owners or workers.
 
@@ -221,43 +239,46 @@ This corresponds to the income approach to GDP discussed in Lecture 1.
 
 ### A second layer of accounting
 
-Lecture 1: accounting for GDP per capita $$\frac{Y}{N}
-            =\frac{Y}{H}\times\frac{H}{E}\times
-             \frac{E}{N^{wa}}\times\frac{N^{wa}}{N}.$$ Output per hour, $Y/H$, was a measured component of GDP per capita.
+**Lecture 1: accounting for GDP per capita**
 
-Lecture 2: accounting for output per unit of labor $$\frac{Y}{L} = \frac{AK^\alpha L^{1-\alpha}}{L} = A\left(\frac{K}{L}\right)^\alpha.$$ We now split labor productivity into capital intensity and TFP.
+$$\frac{Y}{N}
+            =\frac{Y}{H}\times\frac{H}{E}\times
+             \frac{E}{N^{wa}}\times\frac{N^{wa}}{N}$$ Output per hour, $Y/H$, was a measured component of GDP per capita.
+
+**Lecture 2: accounting for output per unit of labor**
+
+$$\frac{Y}{L} = \frac{AK^\alpha L^{1-\alpha}}{L} = A\left(\frac{K}{L}\right)^\alpha$$ We now split labor productivity into capital intensity and TFP.
 
 The first expression is an identity. The second relies on an assumed production function. When $L=H$, output per unit of labor is output per hour.
 
 ### Growth accounting for aggregate output
 
-Begin with the production function $$Y_t=A_tK_t^\alpha L_t^{1-\alpha}.$$
+Begin with the production function $$Y_t=A_tK_t^\alpha L_t^{1-\alpha}$$
 
-Applying the rules for growth rates gives $$g_Y \approx g_A+\alpha g_K+(1-\alpha)g_L.$$
+Applying the rules for growth rates gives $$g_Y \approx g_A+\alpha g_K+(1-\alpha)g_L$$
 
-Hence TFP growth can be calculated as a residual: $$g_A \approx g_Y-\alpha g_K-(1-\alpha)g_L.$$
+Hence TFP growth can be calculated as a residual: $$g_A \approx g_Y-\alpha g_K-(1-\alpha)g_L$$
 
 We observe or estimate $g_Y$, $g_K$, $g_L$, and $\alpha$; we infer $g_A$.
 
 ### Growth accounting for labor productivity
 
-In output-per-unit-of-labor terms, $$\frac{Y_t}{L_t}=A_t\left(\frac{K_t}{L_t}\right)^\alpha.$$
+In output-per-unit-of-labor terms, $$\frac{Y_t}{L_t}=A_t\left(\frac{K_t}{L_t}\right)^\alpha$$
 
-Therefore, $$
-        g_{Y/L}\approx g_A+\alpha g_{K/L}.$$
+Therefore, $$g_{Y/L}\approx g_A+\alpha g_{K/L}$$
 
-- $g_{K/L}$ is **capital deepening**: growth in capital per unit of labor
+- $g_{K/L}$ is **capital deepening**: growth in capital per unit of labor.
 
-- $g_A$ is TFP growth
+- $g_A$ is TFP growth.
 
-- The contribution from capital deepening is $\alpha g_{K/L}$, not the full growth rate of capital per unit of labor
+- The contribution from capital deepening is $\alpha g_{K/L}$, not the full growth rate of capital per unit of labor.
 
 ### Combining Lectures 1 and 2
 
 Lecture 1 gave $$g_{Y/N}\approx
-        g_{Y/H}+g_{H/E}+g_{E/N^{wa}}+g_{N^{wa}/N}.$$
+        g_{Y/H}+g_{H/E}+g_{E/N^{wa}}+g_{N^{wa}/N}$$
 
-To connect the production function to this decomposition, set $L=H$. Equation (labor_productivity_growth) then becomes $$g_{Y/H}\approx g_A+\alpha g_{K/H}.$$
+To connect the production function to this decomposition, set $L=H$. Equation (labor_productivity_growth) then becomes $$g_{Y/H}\approx g_A+\alpha g_{K/H}$$
 
 Substituting gives $$\boxed{
         g_{Y/N}\approx
@@ -288,7 +309,7 @@ Of the 1.5 percent annual growth in labor productivity,
 
 - 0.8 percentage points are attributed to TFP growth
 
-### What growth accounting does – and does not – explain
+### What growth accounting does -- and does not -- explain
 
 - Growth accounting attributes output growth to measured input growth and a TFP residual
 
@@ -312,11 +333,11 @@ Of the 1.5 percent annual growth in labor productivity,
 
 ### Sustained growth is a recent phenomenon
 
+Real GDP per capita, 2017 USD thousands. Source: [Maddison Project Database](https://www.rug.nl/ggdc/historicaldevelopment/maddison/).
+
 **Figure source:** `Fig_LongRunGrowth.png`
 
 **Figure description:** Long-run real GDP per capita for the United Kingdom, Sweden, Japan, and China from roughly 1200 to the 2020s, on a ratio scale. Levels change little for centuries and then rise sharply after industrialization, at different dates across countries. Sustained growth is historically recent.
-
-Real GDP per capita, 2017 USD thousands. Source: [Maddison Project Database](https://www.rug.nl/ggdc/historicaldevelopment/maddison/).
 
 ## The basic Solow model
 
@@ -332,21 +353,21 @@ It allows us to ask whether a high investment rate can generate permanently high
 
 ### The Solow model
 
-- Solow (1956), “A Contribution to the Theory of Economic Growth”
+- Solow (1956), "A Contribution to the Theory of Economic Growth"
 
 - Nobel Prize in Economic Sciences 1987 for his contributions to the theory of economic growth
+
+Robert Solow, 1924--2023
 
 **Figure source:** `solow-13390-portrait-mini-2x.jpg`
 
 **Figure description:** Portrait of Robert Solow (1924–2023), associated with the Solow growth model and the 1987 Nobel Memorial Prize in Economic Sciences.
 
-Robert Solow, 1924–2023
-
 ### The basic model: assumptions
 
 We begin with the simplest version of the model:
 
-- Cobb–Douglas production: $$Y_t=AK_t^\alpha L^{1-\alpha}$$
+- Cobb--Douglas production: $$Y_t=AK_t^\alpha L^{1-\alpha}$$
 
 - TFP is constant: $A_t=A$
 
@@ -362,11 +383,9 @@ Here, $L$ can be interpreted as the number of workers or as population; we abstr
 
 ### Consumption and investment
 
-The closed-economy resource constraint is $$
-        C_t+I_t=Y_t.$$
+The closed-economy resource constraint is $$C_t+I_t=Y_t.$$
 
-A constant fraction of output is saved and invested: $$
-        I_t=sY_t.$$
+A constant fraction of output is saved and invested: $$I_t=sY_t.$$
 
 It follows that consumption is $$C_t=(1-s)Y_t.$$
 
@@ -376,8 +395,7 @@ The investment rate $s$ is taken as given in the Solow model.
 
 The law of motion for capital is $$K_{t+1}=(1-\delta)K_t+I_t.$$
 
-Equivalently, $$
-        K_{t+1}-K_t=I_t-\delta K_t.$$
+Equivalently, $$K_{t+1}-K_t=I_t-\delta K_t.$$
 
 - $I_t$ is gross investment
 
@@ -393,11 +411,9 @@ Define capital and output per unit of labor: $$k_t\equiv\frac{K_t}{L},
         \qquad
         y_t\equiv\frac{Y_t}{L}.$$
 
-Production per unit of labor (or "per capita") is then $$
-        y_t=Ak_t^\alpha.$$
+Production per unit of labor (or "per capita") is then $$y_t=Ak_t^\alpha.$$
 
-Dividing equation (change_capital) by $L$ and using $I_t=sY_t$ gives $$
-        k_{t+1}-k_t=sy_t-\delta k_t
+Dividing equation (change_capital) by $L$ and using $I_t=sY_t$ gives $$k_{t+1}-k_t=sy_t-\delta k_t
         =sAk_t^\alpha-\delta k_t.$$
 
 ### Investment and depreciation
@@ -406,7 +422,7 @@ Equation (solow_law_motion) says that $$\underbrace{k_{t+1}-k_t}_{\text{change i
         =
         \underbrace{sAk_t^\alpha}_{\text{investment per labor unit}}
         -
-        \underbrace{\delta k_t}_{\text{depreciation per labor unit}}.$$
+        \underbrace{\delta k_t}_{\text{depreciation per labor unit}}$$
 
 - Investment is increasing in $k$, but at a diminishing rate
 
@@ -415,6 +431,8 @@ Equation (solow_law_motion) says that $$\underbrace{k_{t+1}-k_t}_{\text{change i
 - The difference between the two determines whether the capital stock rises or falls
 
 ### The Solow diagram
+
+**Figure source:** `fig_solow_diagram.tex`
 
 **Figure note:** The Solow diagram shows output, investment and depreciation as a function of the capital stock.
 
@@ -428,10 +446,11 @@ Equation (solow_law_motion) says that $$\underbrace{k_{t+1}-k_t}_{\text{change i
 
 ### Steady state
 
-Steady state in the basic Solow model In steady state, capital per unit of labor is constant: $k_{t+1}=k_t=k^*$.
+**Steady state in the basic Solow model**
 
-In steady state, equation (solow_law_motion) implies $$
-        sy^*=sA(k^*)^\alpha=\delta k^*.$$
+In steady state, capital per unit of labor is constant: $k_{t+1}=k_t=k^*$.
+
+In steady state, equation (solow_law_motion) implies $$sy^*=sA(k^*)^\alpha=\delta k^*.$$
 
 In the steady state, gross investment is positive, but net investment is zero.
 
@@ -441,8 +460,7 @@ Since $A$ and $L$ are constant in this version, $y$ and aggregate output $Y$ are
 
 The steady-state condition is $$sA(k^*)^\alpha=\delta k^*.$$
 
-Dividing by $(k^*)^\alpha$ and solving for $k^*$ gives $$
-        k^*=\left(\frac{sA}{\delta}\right)^{\frac{1}{1-\alpha}}.$$
+Dividing by $(k^*)^\alpha$ and solving for $k^*$ gives $$k^*=\left(\frac{sA}{\delta}\right)^{\frac{1}{1-\alpha}}.$$
 
 Steady-state capital per unit of labor is higher when
 
@@ -454,8 +472,7 @@ Steady-state capital per unit of labor is higher when
 
 ### Steady-state output per unit of labor
 
-Substituting equation (steady_state_capital) into $y^*=A(k^*)^\alpha$ gives $$
-        y^*
+Substituting equation (steady_state_capital) into $y^*=A(k^*)^\alpha$ gives $$y^*
         =A^{\frac{1}{1-\alpha}}
          \left(\frac{s}{\delta}\right)^{\frac{\alpha}{1-\alpha}}.$$
 
@@ -465,19 +482,19 @@ Substituting equation (steady_state_capital) into $y^*=A(k^*)^\alpha$ gives $$
 
 ### The Solow diagram with output
 
+Figure 5.2 in Jones (2024).
+
 **Figure source:** `MACRO6_FIG05.02.jpg`
 
 **Figure description:** Solow diagram in per-person terms with concave output $y$, investment $sy$, and linear depreciation $\delta k$. Starting below $k^*$, investment exceeds depreciation, so capital and output per person rise toward the steady state. The vertical gap between output and investment is consumption.
 
-Figure 5.2 in Jones (2024).
-
 ### An increase in the investment rate
+
+Figure 5.5 in Jones (2024).
 
 **Figure source:** `MACRO6_FIG05.05.jpg`
 
 **Figure description:** Two-panel experiment in which the investment rate rises from $s$ to $s'$. In the Solow diagram, the investment curve shifts upward and the steady state moves from $k^*$ to $k^{**}$. Output per person rises gradually from $y^*$ to a higher $y^{**}$, but its long-run growth rate returns to zero.
-
-Figure 5.5 in Jones (2024).
 
 ### A higher investment rate: level versus growth
 
@@ -508,6 +525,8 @@ Capital accumulation produces **transitional growth**, not sustained growth, in 
 Sustained growth in output per unit of labor requires something more than continued accumulation of physical capital.
 
 ### Exercise: Where is the steady state?
+
+**Figure source:** `fig_poverty_trap_alt1.tex`
 
 **Figure note:** This production function is non-standard and is not Cobb–Douglas. I am using it here only to illustrate how investment and depreciation determine the dynamics of the capital stock.
 
