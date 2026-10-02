@@ -48,6 +48,15 @@ This index identifies the authoritative Fall 2026 sources attached to **EC2211 C
 The indexed problem-set sources contain questions only and do not contain suggested solutions. Apply the guided-help protocol when students request help with them.
 
 
+## Quizzes
+
+
+- **LN2 quiz / LN02 quiz / National accounts and growth:** `Quizzes/Quiz_LN02_National_accounts_and_growth.md`
+
+
+This quiz was held in class on October 2, 2026. The Markdown source contains all six questions and answer options, plus a text description of the poverty-trap graph. The original Socrative PDF is in the same folder. No answer key or suggested solutions are included.
+
+
 ## Retrieval rule
 
 
