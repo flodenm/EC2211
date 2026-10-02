@@ -4,7 +4,7 @@
 **Instructor:** Martin Flodén  
 **Course version:** Fall 2026 (authoritative)
 
-This file is an agent-oriented rendering of the final Fall 2026 lecture source. Headings reproduce section and frame titles. Figure notes and nearby text should be used when answering questions about visuals.
+This file is an agent-oriented rendering of the Fall 2026 lecture source updated on October 2, 2026. Headings reproduce section and frame titles. Figure notes and nearby text should be used when answering questions about visuals.
 
 ## Introduction
 
@@ -14,23 +14,25 @@ This file is an agent-oriented rendering of the final Fall 2026 lecture source. 
 
 - What do we need to know to make it "interesting"?
 
+Current prices. Source: Statistics Sweden.
+
 **Figure source:** `GDP_se.png`
 
 **Figure description:** Line chart of Swedish nominal GDP in current prices, rising from SEK 196 billion in 1970 to SEK 6,392 billion in 2024. The strong upward trend alone does not distinguish greater production from higher prices or population growth.
 
 ### Is Europe lagging behind?
 
-“EU economic growth has been persistently slower than in the US over the past two decades, while China has been rapidly catching up.”
-
-Mario Draghi (2024, p. 12)
+> Mario Draghi (2024, p. 12)
+>
+> "EU economic growth has been persistently slower than in the US over the past two decades, while China has been rapidly catching up."
 
 ### Is Europe lagging behind?
+
+GDP per capita, converted using 2015 purchasing power parities; United States in 2000 = 100. Percentages indicate cumulative growth. Source: AMECO and own calculations.
 
 **Figure source:** `gdp_per_capita_swe_fra_usa.pdf`
 
 **Figure description:** Real GDP per capita converted using fixed 2015 PPPs and indexed so that the United States in 2000 equals 100. From 2000 to 2025, the United States rises from 100 to about 138 (+38 percent), Sweden from about 81 to 106 (+31 percent), and France from about 76 to 91 (+20 percent). All series dip around the global financial crisis and the pandemic, with the pandemic decline particularly pronounced for France.
-
-GDP per capita, converted using 2015 purchasing power parities; United States in 2000 = 100. Percentages indicate cumulative growth. Source: AMECO and own calculations.
 
 ### Contents and literature
 
@@ -54,7 +56,9 @@ Literature:
 
 ### GDP
 
-GDP = Gross Domestic Product The value of all final goods and services produced in an economy over a certain period
+**GDP = Gross Domestic Product**
+
+The value of all final goods and services produced in an economy over a certain period
 
 - National accounts were developed beginning in the 1930s; international standards are set out in the [United Nations System of National Accounts](https://unstats.un.org/unsd/nationalaccount/sna2025.asp)
 
@@ -62,16 +66,18 @@ GDP = Gross Domestic Product The value of all final goods and services produced 
 
 ### Expenditure approach
 
-The National Income Identity $Y = C + I + G + EX - IM$
+**The National Income Identity**
 
-|                                       |                                                                                |
-|--------------------------------------:|:-------------------------------------------------------------------------------|
-|                                   $Y$ | = GDP                                                                          |
-|                                   $C$ | = consumption                                                                  |
-|                                   $I$ | = investment                                                                   |
-|                                   $G$ | = government purchases                                                         |
-|                                  $EX$ | = exports                                                                      |
-|                                  $IM$ | = imports                                                                      |
+$Y = C + I + G + EX - IM$
+
+|                  |                                                             |
+|-----------------:|:------------------------------------------------------------|
+|              $Y$ | = GDP                                                       |
+|              $C$ | = consumption                                               |
+|              $I$ | = investment                                                |
+|              $G$ | = government purchases                                      |
+|             $EX$ | = exports                                                   |
+|             $IM$ | = imports                                                   |
 | $NX$ | = $EX - IM =$ net exports $=$ "trade balance" |
 
 Changes in inventories count as investment, even if the goods have not yet been sold.
@@ -86,16 +92,17 @@ Changes in inventories count as investment, even if the goods have not yet been 
 
 - Government purchases consist of government consumption and government investment
 
-|                                                                                                                                |  SEK bn | % of GDP |
-|:-------------------------------------------------------------------------------------------------------------------------------|--------:|---------:|
-| Gross domestic product                                                                                                         |   6,143 |      100 |
-| Consumption                                                                                                                    |   2,798 |       46 |
-| Investment                                                                                                                     |   1,241 |       20 |
-| Government purchases                                                                                                           |   1,935 |       31 |
-| Net exports                                                                                                                    |     170 |        3 |
-| *. exports*                                                                                                                    | *3,391* |     *55* |
-| *. imports*                                                                                                                    | *3,220* |     *52* |
-| Source: [Statistics Sweden](https://www.statistikdatabasen.scb.se/pxweb/en/ssd/START__NR__NR0103__NR0103E/NR0103ENS2010T01NA/) |         |          |
+|                        |  SEK bn | \% of GDP |
+|:-----------------------|--------:|----------:|
+| Gross domestic product |   6,143 |       100 |
+| Consumption            |   2,798 |        46 |
+| Investment             |   1,241 |        20 |
+| Government purchases   |   1,935 |        31 |
+| Net exports            |     170 |         3 |
+| *. exports*            | *3,391* |      *55* |
+| *. imports*            | *3,220* |      *52* |
+
+Source: [Statistics Sweden](https://www.statistikdatabasen.scb.se/pxweb/en/ssd/START__NR__NR0103__NR0103E/NR0103ENS2010T01NA/)
 
 ### Income approach
 
@@ -107,16 +114,18 @@ GDP = "wages" + "profits"
 
 ### Income approach to Swedish GDP in 2023
 
-| Item | SEK bn | % of GDP |
-| --- | --- | --- |
-| Gross domestic product | 6,143 | 100 |
-| Compensation of employees | 2,938 | 48 |
-| *. wages and salaries* | *2,426* | *39* |
-| *. employers’ social contributions* | *511* | *8* |
-| Operating surplus and mixed income | 1,980 | 32 |
-| Taxes on production and imports less subsidies | 1,225 | 20 |
+|                                                |  SEK bn | \% of GDP |
+|:-----------------------------------------------|--------:|----------:|
+| Gross domestic product                         |   6,143 |       100 |
+| Compensation of employees                      |   2,938 |        48 |
+| *. wages and salaries*                         | *2,426* |      *39* |
+| *. employers' social contributions*            |   *511* |       *8* |
+| Operating surplus and mixed income             |   1,980 |        32 |
+| Taxes on production and imports less subsidies |   1,225 |        20 |
 
 Note: The last row ("Taxes ...") consists mostly of VAT, import tariffs and payroll taxes. Income taxes and corporate profit taxes are *not* in that item.
+
+Source: [Eurostat](https://ec.europa.eu/eurostat/databrowser/explore/all/economy?lang=en&subtheme=na10.nama10.nama_10_ma&display=list&sort=category&extractionId=nama_10_gdp)
 
 ### Production approach
 
@@ -132,45 +141,50 @@ Homer and Marge grow 100 oranges and sell them to Moe for \$30. Moe packages the
 
 | **Approach** | **What is counted?**           | **GDP**     |
 |:-------------|:-------------------------------|:------------|
-| Expenditure  | Edna’s final consumption       | \$50        |
-| Income       | Growers’ income + Moe’s profit | \$30 + \$20 |
+| Expenditure  | Edna's final consumption       | \$50        |
+| Income       | Growers' income + Moe's profit | \$30 + \$20 |
 | Production   | Value added at each stage      | \$30 + \$20 |
 
-The same production is viewed from three different sides Expenditure = income = value added = \$50
+**The same production is viewed from three different sides**
+
+Expenditure = income = value added = \$50
 
 ### Production approach to Swedish GDP in 2023
 
-|                                                                                                                                | SEK bn | % of GDP |
-|:-------------------------------------------------------------------------------------------------------------------------------|-------:|---------:|
-| Gross domestic product                                                                                                         |  6,143 |      100 |
-| Agriculture, forestry and fishing                                                                                              |     79 |        1 |
-| Mineral extract                                                                                                                |     38 |        1 |
-| Manufacturing                                                                                                                  |    823 |       13 |
-| Electricity, gas, steam and air conditioning, water supply, waste                                                              |    173 |        3 |
-| Construction                                                                                                                   |    354 |        6 |
-| Wholesale and retail trade                                                                                                     |    559 |        9 |
-| Transport and storage                                                                                                          |    206 |        3 |
-| Hotels and restaurants                                                                                                         |     93 |        2 |
-| Publishing, media, sound, telecom, programming, IT                                                                             |    397 |        6 |
-| Financial services and insurance activities                                                                                    |    246 |        4 |
-| Real estate activities                                                                                                         |    476 |        7 |
-| Legal, accounting and activities of head offices, management consultancy                                                       |    175 |        3 |
-| Architectural and engineering activities, R&D                                                                                  |    138 |        2 |
-| Advertising and market research, veterinary activities                                                                         |     58 |        1 |
-| Administrative and support service activities                                                                                  |    211 |        3 |
-| Education                                                                                                                      |     53 |        1 |
-| Human health, residential care, social work                                                                                    |    132 |        2 |
-| Arts, entertainment, recreation and other service activities                                                                   |     86 |        1 |
-| Non-profit institutions servicing households                                                                                   |     67 |        1 |
-| Government                                                                                                                     |  1,123 |       18 |
-| Taxes on products less subsidies                                                                                               |    655 |       11 |
-| Source: [Statistics Sweden](https://www.statistikdatabasen.scb.se/pxweb/en/ssd/START__NR__NR0103__NR0103E/NR0103ENS2010T06NA/) |        |          |
+|                                                                          | SEK bn | \% of GDP |
+|:-------------------------------------------------------------------------|-------:|----------:|
+| Gross domestic product                                                   |  6,143 |       100 |
+| Agriculture, forestry and fishing                                        |     79 |         1 |
+| Mineral extract                                                          |     38 |         1 |
+| Manufacturing                                                            |    823 |        13 |
+| Electricity, gas, steam and air conditioning, water supply, waste        |    173 |         3 |
+| Construction                                                             |    354 |         6 |
+| Wholesale and retail trade                                               |    559 |         9 |
+| Transport and storage                                                    |    206 |         3 |
+| Hotels and restaurants                                                   |     93 |         2 |
+| Publishing, media, sound, telecom, programming, IT                       |    397 |         6 |
+| Financial services and insurance activities                              |    246 |         4 |
+| Real estate activities                                                   |    476 |         7 |
+| Legal, accounting and activities of head offices, management consultancy |    175 |         3 |
+| Architectural and engineering activities, R&D                            |    138 |         2 |
+| Advertising and market research, veterinary activities                   |     58 |         1 |
+| Administrative and support service activities                            |    211 |         3 |
+| Education                                                                |     53 |         1 |
+| Human health, residential care, social work                              |    132 |         2 |
+| Arts, entertainment, recreation and other service activities             |     86 |         1 |
+| Non-profit institutions servicing households                             |     67 |         1 |
+| Government                                                               |  1,123 |        18 |
+| Taxes on products less subsidies                                         |    655 |        11 |
 
 Note: The last row ("Taxes ...") consists mostly of VAT and import tariffs.
+
+Source: [Statistics Sweden](https://www.statistikdatabasen.scb.se/pxweb/en/ssd/START__NR__NR0103__NR0103E/NR0103ENS2010T06NA/)
 
 ## Comparisons over time: prices and quantities
 
 ### Do we produce more today or are prices just higher?
+
+Current prices. Source: Statistics Sweden.
 
 **Figure source:** `GDP_se.png`
 
@@ -188,9 +202,9 @@ Note: The last row ("Taxes ...") consists mostly of VAT and import tariffs.
 
 - *Nominal* GDP is then:
 
-  - $Y^N_1=1\times 100 + 1 \times 100 = 200$
+    - $Y^N_1=1\times 100 + 1 \times 100 = 200$
 
-  - $Y^N_2 = 2 \times 100 + 1 \times 150 = 350$
+    - $Y^N_2 = 2 \times 100 + 1 \times 150 = 350$
 
 - How much more do we produce in period 2? How much have prices increased?
 
@@ -198,32 +212,37 @@ Note: The last row ("Taxes ...") consists mostly of VAT and import tariffs.
 
 - Use prices from period 1 to calculate "real" GDP:
 
-  - $Y^{P_1}_1 = 1 \times 100 + 1 \times 100 = 200$
+    - $Y^{P_1}_1 = 1 \times 100 + 1 \times 100 = 200$
 
-  - $Y^{P_1}_2 = 1 \times 100 + 1 \times 150 = 250$
+    - $Y^{P_1}_2 = 1 \times 100 + 1 \times 150 = 250$
 
 - Use prices from period 2 to calculate "real" GDP in year 1:
 
-  - $Y^{P_2}_1 = 2 \times 100 + 1 \times 100 = 300$
+    - $Y^{P_2}_1 = 2 \times 100 + 1 \times 100 = 300$
 
-  - $Y^{P_2}_2 = 2 \times 100 + 1 \times 150 = 350$
+    - $Y^{P_2}_2 = 2 \times 100 + 1 \times 150 = 350$
 
 - The growth rate of real GDP is then
 
-  - $\frac{Y^{P_1}_2-Y^{P_1}_1}{Y^{P_1}_1} = 25\%$ if prices from period 1 are used
+    - $\frac{Y^{P_1}_2-Y^{P_1}_1}{Y^{P_1}_1} = 25\%$ if prices from period 1 are used
 
-  - $\frac{Y^{P_2}_2-Y^{P_2}_1}{Y^{P_2}_1} = 17\%$ if prices from period 2 are used
+    - $\frac{Y^{P_2}_2-Y^{P_2}_1}{Y^{P_2}_1} = 17\%$ if prices from period 2 are used
 
 ### The split between prices and quantities is not unique
 
 Nominal GDP rises from 200 to 350, a factor of 1.75 (75 percent). The two quantity indexes imply different price indexes:
 
-| **Prices used to value output** | **Real GDP factor** | **Price factor** |
-|:--------------------------------|:-------------------:|:----------------:|
-| Year 1 prices                   |   1.25 $(+25\%)$    |  1.40 $(+40\%)$  |
-| Year 2 prices                   |  1.167 $(+16.7\%)$  |  1.50 $(+50\%)$  |
+| **Prices used to value output** | **Increase in real GDP** | **Price increase** |
+|:--------------------------------|:------------------------:|:------------------:|
+| Year 1 prices                   |        $+25.0\%$         |      $+40\%$       |
+| Year 2 prices                   |        $+16.7\%$         |      $+50\%$       |
 
-Both decompositions match nominal GDP growth $$1.75=1.25\times1.40\approx1.167\times1.50$$
+**Both decompositions match nominal GDP growth**
+
+$$\begin{aligned}
+ 1+\text{nominal GDP growth} =& (1 + \text{real GDP growth}) \times (1 + \text{price increase})\\
+ 1.75 =& 1.25\times1.40\approx1.167\times1.50   
+\end{aligned}$$
 
 ### How do we compare "today" with "yesterday"?
 
@@ -237,17 +256,17 @@ Both decompositions match nominal GDP growth $$1.75=1.25\times1.40\approx1.167\t
 
 - Consumption baskets change over time
 
-  - Our preferences change
+    - Our preferences change
 
-  - New goods and services are developed
+    - New goods and services are developed
 
 - Problems are more salient when comparison is over long time periods or if price movements are large
 
 - A typical method used by statistical agencies is a *chain weighted* index:
 
-  - Weights are updated frequently and short-period growth rates are linked together
+    - Weights are updated frequently and short-period growth rates are linked together
 
-  - One common formula is the Fisher index, the geometric mean of the Laspeyres and Paasche indexes
+    - One common formula is the Fisher index, the geometric mean of the Laspeyres and Paasche indexes
 
 ### Nominal and real GDP: example terminology
 
@@ -255,29 +274,29 @@ Both decompositions match nominal GDP growth $$1.75=1.25\times1.40\approx1.167\t
 
 - Real GDP:
 
-  - "2015 prices, million SEK"
+    - "2015 prices, million SEK"
 
-  - "Constant prices, reference year 2024, SEK million"
+    - "Constant prices, reference year 2024, SEK million"
 
-  - "Chain linked volumes, index 2010=100"
+    - "Chain linked volumes, index 2010=100"
 
-  - "Chain linked volumes (2010), million euro"
+    - "Chain linked volumes (2010), million euro"
 
 ### Price indices: some examples
 
 - GDP deflator:
 
-  - GDP deflator $=$ nominal GDP $/$ real GDP
+    - GDP deflator $=$ nominal GDP $/$ real GDP
 
-  - Average price of goods produced in the economy, weighted by importance in production
+    - Average price of goods produced in the economy, weighted by importance in production
 
 - CPI, "Consumer price index":
 
-  - Average price of goods consumed in the economy, weighted by importance in households’ consumption baskets
+    - Average price of goods consumed in the economy, weighted by importance in households' consumption baskets
 
 - One important difference between these relates to international trade
 
-  - Many goods in the consumption basket are imported
+    - Many goods in the consumption basket are imported
 
 ### From 1970 to 2023
 
@@ -287,21 +306,21 @@ Both decompositions match nominal GDP growth $$1.75=1.25\times1.40\approx1.167\t
 
 ### Nominal GDP rose for three different reasons
 
-**Figure source:** `GDP_POP_se.png`
-
-**Figure description:** Indexes for Sweden with 1970 = 100. By 2023, nominal GDP is about 3,140, the GDP deflator about 1,090, population about 130, and real GDP per capita about 220. Thus nominal GDP rose by a factor of about 31.4, decomposed approximately as $31.4\approx10.9\times1.3\times2.2$.
-
 $$\underbrace{31.4}_{\substack{\text{nominal}\\\text{GDP}}}
 \approx
 \underbrace{10.9}_{\text{prices}}
 \times
 \underbrace{1.3}_{\text{population}}
 \times
-\underbrace{2.2}_{\substack{\text{real GDP}\\\text{per person}}}.$$
+\underbrace{2.2}_{\substack{\text{real GDP}\\\text{per person}}}$$
+
+**Figure source:** `GDP_POP_se.png`
+
+**Figure description:** Indexes for Sweden with 1970 = 100. By 2023, nominal GDP is about 3,140, the GDP deflator about 1,090, population about 130, and real GDP per capita about 220. Thus nominal GDP rose by a factor of about 31.4, decomposed approximately as $31.4\approx10.9\times1.3\times2.2$.
 
 ### Annualizing the three contributions
 
-For a cumulative increase by a factor $x$ over $T$ years, the constant annual growth rate is $$g=x^{1/T}-1.$$ From 1970 to 2023 ($T=53$):
+For a cumulative increase by a factor $x$ over $T$ years, the constant annual growth rate is $$g=x^{1/T}-1$$ From 1970 to 2023 ($T=53$):
 
 |                     | **Cumulative factor** | **Annual growth** |
 |:--------------------|:---------------------:|:-----------------:|
@@ -310,7 +329,7 @@ For a cumulative increase by a factor $x$ over $T$ years, the constant annual gr
 | Real GDP per capita |          2.2          |       1.5%        |
 | Nominal GDP         |         31.4          |       6.7%        |
 
-The annual growth factors multiply: $$1.067\approx1.046\times1.005\times1.015.$$
+The annual growth factors multiply: $$1.067\approx1.046\times1.005\times1.015$$
 
 ## Comparisons across countries: exchange rates and PPP
 
@@ -320,15 +339,15 @@ The annual growth factors multiply: $$1.067\approx1.046\times1.005\times1.015.$$
 
 - Exchange rate 1 USD = 6.91 yuan
 
-  - Convert Chinese GDP to dollars at market exchange rates:
+    - Convert Chinese GDP to dollars at market exchange rates:
 
-  - 95.1 trillion yuan $\times \frac{\$1}{6.91 \texttt{ yuan}} = \$13.8$ trillion
+    - 95.1 trillion yuan $\times \frac{\$1}{6.91 \texttt{ yuan}} = \$13.8$ trillion
 
 - But the price level in China was around 68.4 percent of the price level in the United States
 
-  - Convert Chinese GDP to dollars using U.S. prices (i.e. at **purchasing power parity**)
+    - Convert Chinese GDP to dollars using U.S. prices (i.e. at **purchasing power parity**)
 
-  - 95.1 trillion yuan $\times \frac{\$1}{6.91 \texttt{ yuan} \times 0.684} = \$20.1$ trillion
+    - 95.1 trillion yuan $\times \frac{\$1}{6.91 \texttt{ yuan} \times 0.684} = \$20.1$ trillion
 
 - So PPP adjusted GDP in China is roughly as high as that in the United States
 
@@ -348,7 +367,7 @@ Let $Y$ denote real GDP, $H$ total hours worked, and $N$ the population. Then $$
 
 ### Hours worked per person have three components
 
-Let $E$ denote employment and $N^{wa}$ the working-age population (ages 15–74). Then $$\frac{H}{N}
+Let $E$ denote employment and $N^{wa}$ the working-age population (ages 15--74). Then $$\frac{H}{N}
     =
     \underbrace{\frac{H}{E}}_{\substack{\text{hours per}\\\text{worker}}}
     \times
@@ -373,33 +392,37 @@ For country $i$, divide each component by its U.S. counterpart: $$\begin{aligned
 \frac{(N^{wa}/N)_i}{(N^{wa}/N)_{\mathrm{US}}}.
 \end{aligned}$$
 
-Reading the decomposition GDP per capita can differ because of output per hour, hours per worker, the employment rate, or the working-age share of the population.
+**Reading the decomposition**
+
+GDP per capita can differ because of output per hour, hours per worker, the employment rate, or the working-age share of the population.
 
 ### In 2000, labor input explained much of the gap
 
 Each entry is the country level as a percentage of the U.S. level:
 
-| Country | $\boldsymbol{Y/N}$ | $\boldsymbol{Y/H}$ | $\boldsymbol{H/E}$ | $\boldsymbol{E/N^{wa}}$ | $\boldsymbol{N^{wa}/N}$ |
-| --- | --- | --- | --- | --- | --- |
-| Germany | **84** | 104 | 86 | 88 | 106 |
-| France | **76** | 104 | 89 | 82 | 100 |
-| Italy | **81** | 99 | 108 | 72 | 106 |
-| Sweden | **81** | 90 | 100 | 91 | 99 |
+|         | $\boldsymbol{Y/N}$ | $\boldsymbol{Y/H}$ | $\boldsymbol{H/E}$ | $\boldsymbol{E/N^{wa}}$ | $\boldsymbol{N^{wa}/N}$ |
+|:--------|-------------------:|-------------------:|-------------------:|------------------------:|------------------------:|
+| Germany |             **84** |                104 |                 86 |                      88 |                     106 |
+| France  |             **76** |                104 |                 89 |                      82 |                     100 |
+| Italy   |             **81** |                 99 |                108 |                      72 |                     106 |
+| Sweden  |             **81** |                 90 |                100 |                      91 |                      99 |
 
 - Germany, France, and Italy produced roughly as much per hour as the United States
 
-- Lower employment rates – and, in Germany and France, fewer hours per worker – reduced GDP per capita
+- Lower employment rates -- and, in Germany and France, fewer hours per worker -- reduced GDP per capita
+
+Source: AMECO, Eurostat and own calculations, following [Bunel et al. (2025)](https://www.banque-france.fr/en/publications-and-statistics/publications/revisiting-european-performance-gap-vis-vis-united-states). Working age is defined as 15--74.
 
 ### By 2025, productivity gaps had opened everywhere
 
 Each entry is the country level as a percentage of the U.S. level:
 
-| Country | $\boldsymbol{Y/N}$ | $\boldsymbol{Y/H}$ | $\boldsymbol{H/E}$ | $\boldsymbol{E/N^{wa}}$ | $\boldsymbol{N^{wa}/N}$ |
-| --- | --- | --- | --- | --- | --- |
-| Germany | **76** | 87 | 79 | 110 | 100 |
-| France | **66** | 83 | 87 | 93 | 97 |
-| Italy | **63** | 68 | 104 | 89 | 100 |
-| Sweden | **77** | 81 | 96 | 103 | 96 |
+|         | $\boldsymbol{Y/N}$ | $\boldsymbol{Y/H}$ | $\boldsymbol{H/E}$ | $\boldsymbol{E/N^{wa}}$ | $\boldsymbol{N^{wa}/N}$ |
+|:--------|-------------------:|-------------------:|-------------------:|------------------------:|------------------------:|
+| Germany |             **76** |                 87 |                 79 |                     110 |                     100 |
+| France  |             **66** |                 83 |                 87 |                      93 |                      97 |
+| Italy   |             **63** |                 68 |                104 |                      89 |                     100 |
+| Sweden  |             **77** |                 81 |                 96 |                     103 |                      96 |
 
 - Employment rates had moved closer to, or above, the U.S. rate
 
@@ -407,23 +430,30 @@ Each entry is the country level as a percentage of the U.S. level:
 
 - Fewer hours per worker remained important, especially in Germany and France
 
+Source: AMECO, Eurostat and own calculations, following [Bunel et al. (2025)](https://www.banque-france.fr/en/publications-and-statistics/publications/revisiting-european-performance-gap-vis-vis-united-states). Working age is defined as 15--74.
+
 ### Small growth rates approximately add
 
 Suppose that $Y=A\times B$. If $A$ and $B$ grow at rates $g_A$ and $g_B$, $$\begin{aligned}
 1+g_Y
 &=(1+g_A)(1+g_B)\\
-&=1+g_A+g_B+g_Ag_B.
+&=1+g_A+g_B+g_Ag_B
 \end{aligned}$$ Therefore, $$g_Y=g_A+g_B+g_Ag_B
-\approx g_A+g_B.$$
+\approx g_A+g_B$$
 
-The percentage-change approximation $$\Delta Y\;(\%)\approx\Delta A\;(\%)+\Delta B\;(\%).$$ It works well for small annual changes. For large cumulative changes, first calculate average annual rates.
+**The percentage-change approximation**
+
+$$\Delta Y\;(\%)\approx\Delta A\;(\%)+\Delta B\;(\%).$$ It works well for small annual changes. For large cumulative changes, first calculate average annual rates.
 
 ### Approximate accounting for GDP-per-capita growth
 
-Applying the approximation to the four-part identity gives $$\begin{aligned}
+Recall that $$\frac{Y}{N}
+    =\frac{Y}{H}\times\frac{H}{E}\times\frac{E}{N^{wa}}\times\frac{N^{wa}}{N}$$
+
+Applying the approximation to this four-part identity gives $$\begin{aligned}
 g_{Y/N}
-\approx{}&g_{Y/H}+g_{H/E}\\
-&+g_{E/N^{wa}}+g_{N^{wa}/N}.
+\approx{}&g_{Y/H}+g_{H/E}
++g_{E/N^{wa}}+g_{N^{wa}/N}
 \end{aligned}$$
 
 Comparing country $i$ with the United States: $$\begin{aligned}
@@ -432,21 +462,23 @@ g^i_{Y/N}-g^{\mathrm{US}}_{Y/N}
 \left(g^i_{Y/H}-g^{\mathrm{US}}_{Y/H}\right)
 +\left(g^i_{H/E}-g^{\mathrm{US}}_{H/E}\right)\\
 &+\left(g^i_{E/N^{wa}}-g^{\mathrm{US}}_{E/N^{wa}}\right)
-+\left(g^i_{N^{wa}/N}-g^{\mathrm{US}}_{N^{wa}/N}\right).
++\left(g^i_{N^{wa}/N}-g^{\mathrm{US}}_{N^{wa}/N}\right)
 \end{aligned}$$
 
 ### Productivity dominated the growth gap
 
-U.S. GDP per capita grew by 1.31% per year from 2000 to 2025. The table shows differences from U.S. growth, in percentage points per year:
+U.S. GDP per capita grew by 1.31% per year from 2000 to 2025. The table below shows differences from U.S. growth, in percentage points per year:
 
-| Country | $\boldsymbol{Y/N}$ | $\boldsymbol{Y/H}$ | $\boldsymbol{H/E}$ | $\boldsymbol{E/N^{wa}}$ | $\boldsymbol{N^{wa}/N}$ |
-| --- | --- | --- | --- | --- | --- |
-| Germany | $\mathbf{-0.4}$ | $-0.7$ | $-0.3$ | $+0.9$ | $-0.2$ |
-| France | $\mathbf{-0.6}$ | $-0.9$ | $-0.1$ | $+0.5$ | $-0.1$ |
-| Italy | $\mathbf{-1.1}$ | $-1.6$ | $-0.1$ | $+0.8$ | $-0.2$ |
-| Sweden | $\mathbf{-0.2}$ | $-0.4$ | $-0.1$ | $+0.5$ | $-0.1$ |
+|         | $\boldsymbol{Y/N}$ | ${Y/H}$ | ${H/E}$ | ${E/N^{wa}}$ | ${N^{wa}/N}$ |
+|:--------|-------------------:|--------:|--------:|-------------:|-------------:|
+| Germany |    $\mathbf{-0.4}$ |  $-0.7$ |  $-0.3$ |       $+0.9$ |       $-0.2$ |
+| France  |    $\mathbf{-0.6}$ |  $-0.9$ |  $-0.1$ |       $+0.5$ |       $-0.1$ |
+| Italy   |    $\mathbf{-1.1}$ |  $-1.6$ |  $-0.1$ |       $+0.8$ |       $-0.2$ |
+| Sweden  |    $\mathbf{-0.2}$ |  $-0.4$ |  $-0.1$ |       $+0.5$ |       $-0.1$ |
 
-Employment-rate growth helped all four countries, but it did not fully offset slower productivity growth and the other margins.
+Employment-rate growth relative to the U.S. helped all four countries, but did not fully offset slower productivity growth and the other margins.
+
+Average annual growth rates. Components add approximately; differences may not sum exactly because of the approximation and rounding. Source: AMECO and own calculations, following [Bunel et al. (2025)](https://www.banque-france.fr/en/publications-and-statistics/publications/revisiting-european-performance-gap-vis-vis-united-states).
 
 ## Is Europe falling behind? Two perspectives
 
@@ -454,15 +486,15 @@ Employment-rate growth helped all four countries, but it did not fully offset sl
 
 See the table on the next slide:
 
-- The first column reports growth in GDP per capita using the same method as slides (fig1) and (FixedPPP1)–(FixedPPP2)
+- The first column reports growth in GDP per capita using the same method as slides (fig1) and (FixedPPP1)--(FixedPPP2)
 
-  - Output was then based on fixed purchasing power parities (from 2015)
+    - Output was then based on fixed purchasing power parities (from 2015)
 
-  - GDP per capita increased less in Europe than in the United States
+    - GDP per capita increased less in Europe than in the United States
 
 - The final two columns show output per capita relative to the United States measured in PPP from the respective year
 
-  - Germany then improved its position relative to the United States!
+    - Germany then improved its position relative to the United States!
 
 ### Is Europe falling behind? Two perspectives
 
@@ -482,7 +514,7 @@ Source: AMECO and own calculations.
 
 GDP combines many different goods and services. Prices are therefore needed to aggregate them into a single measure of output.
 
-- **Fixed PPP:** Relative levels are anchored using the PPP comparison from one particular year (here 2015) and then extrapolated using each country’s chain-linked real GDP growth
+- **Fixed PPP:** Relative levels are anchored using the PPP comparison from one particular year (here 2015) and then extrapolated using each country's chain-linked real GDP growth
 
 - **Current-year PPP:** A new cross-country price comparison is made in each year, using current prices and expenditure weights
 
@@ -494,7 +526,7 @@ Further reading and debate in case you are interested:
 
 - Noah Smith: [Yes, Europeans are poorer than Americans](https://www.noahpinion.blog/p/yes-europeans-are-poorer-than-americans)
 
-- Philippe Aghion et al.: [The Mismeasurement of European Productivity](https://www.siliconcontinent.com/p/the-mismeasurement-of-europes-productivity)
+- Philippe Aghion et al.: [The mismeasurement of European productivity](https://www.siliconcontinent.com/p/the-mismeasurement-of-europes-productivity)
 
 ### What can we conclude?
 
@@ -504,19 +536,19 @@ Further reading and debate in case you are interested:
 
 - These repeated cross sections suggest a less uniform decline: Germany improved its position, France and Sweden were broadly stable, and Italy lost some ground
 
-- This does not overturn the real-growth comparison: part of the difference reflects changes in the prices and weights used to value different countries’ output
+- This does not overturn the real-growth comparison: part of the difference reflects changes in the prices and weights used to value different countries' output
 
-### GDP is not welfare – but it is informative about living standards
+### GDP is not welfare -- but it is informative about living standards
 
 - GDP does not measure leisure, household production, inequality, environmental damage, ...
 
 - Nevertheless, people tend to live longer in countries with higher GDP per person
 
+Sources: Penn World Table 11.0 and own calculations.
+
 **Figure source:** `Fig_gdp_lifeexp.pdf`
 
 **Figure description:** Cross-country scatterplot with GDP per capita in 2017 international dollars on a logarithmic horizontal axis and life expectancy at birth on the vertical axis. Life expectancy is generally higher in richer countries, but the relationship flattens at high income levels and there is substantial variation among countries with similar GDP per capita.
-
-Sources: Penn World Table 11.0 and own calculations.
 
 ## Final comments
 
@@ -526,9 +558,9 @@ Sources: Penn World Table 11.0 and own calculations.
 
 - Separating changes in prices from changes in quantities requires choosing a price index
 
-  - National chain-linked indices are designed to measure changes over time
+    - National chain-linked indices are designed to measure changes over time
 
-  - PPPs are designed to compare price and volume levels across countries
+    - PPPs are designed to compare price and volume levels across countries
 
 - When relative prices and the composition of output change, different defensible price indices can produce different answers
 
@@ -540,7 +572,9 @@ Sources: Penn World Table 11.0 and own calculations.
 
 - They do not explain why output per hour differs across countries or changes over time
 
-Next step In the next lecture, we will introduce a production function and decompose output per hour into capital intensity and total factor productivity.
+**Next step**
+
+In the next lecture, we will introduce a production function and decompose output per hour into capital intensity and total factor productivity.
 
 $$\frac{Y}{H}=A\left(\frac{K}{H}\right)^\alpha$$
 
@@ -574,3 +608,15 @@ Suppose that $y$ changes from $y_t$ to $y_s$ over $s-t$ years. If the constant a
 
 GDP per capita in Sweden increased from SEK 145,400 in 1950 to SEK 603,752 in 2024, measured in constant 2024 prices. Thus, $$\frac{y_{2024}}{y_{1950}}\approx4.15$$ The average annual growth rate was $$g=\left(\frac{y_{2024}}{y_{1950}}\right)^\frac{1}{2024-1950}-1 = 4.15^\frac{1}{74} - 1
 \approx0.0194=1.94\text{ percent}$$
+
+## Some Swedish terms
+
+### Some Swedish terms
+
+| English                      | Swedish                     |
+|:-----------------------------|:----------------------------|
+| GDP (gross domestic product) | BNP (bruttonationalprodukt) |
+| billion ($10^9$)             | miljard                     |
+| trillion ($10^{12}$)         | 1000 miljarder              |
+
+The Swedish word *biljon* means $10^{12}$, but it is easily confused with the English *billion*. I suggest using *1000 miljarder* instead.
