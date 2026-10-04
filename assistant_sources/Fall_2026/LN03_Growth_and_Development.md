@@ -200,17 +200,14 @@ The economy can have growing aggregate output even though living standards do no
 
 ### Exercise: Two otherwise identical economies
 
-Economies A and B have the same $A$, $s$, $\delta$, $\alpha$, and initial capital per worker. Population growth is higher in B.
+Economies 1 and 2 are initially in the same steady state. Population growth then falls permanently in Economy 2 but remains unchanged in Economy 1. All other parameters remain the same.
 
-Compare the two economies’ expected:
+Compare the economies in terms of:
 
-1.  steady-state capital per worker;
-
-2.  steady-state output per worker;
-
-3.  aggregate output growth in the steady state; and
-
-4.  transitional growth in output per worker.
+1. steady-state capital per worker;
+2. steady-state output per worker;
+3. aggregate output growth in the steady state; and
+4. output-per-worker growth during the transition.
 
 ## Technological progress and balanced growth
 
@@ -229,9 +226,9 @@ The rate $g_A$ is exogenous: the Solow model now allows for technological progre
 
 ### A balanced growth path
 
-Balanced growth path Along a balanced growth path, each variable grows at a constant rate (or is constant). Different variables need not grow at the same rate.
+**Balanced growth path:** Along a balanced growth path, each variable grows at a constant rate (or is constant). Different variables need not grow at the same rate.
 
-Recall that 
+Note that the growth rate of capital is
 
 > $\frac{K_{t+1}-K_t}{K_t} =s\frac{Y_t}{K_t}-\delta.$
 
@@ -276,7 +273,7 @@ Capital and consumption per worker grow at the same rate:
 > $g_k=g_y=g_c = \frac{g_A}{1-\alpha}.$
 
 
-TFP growth raises output directly and also induces capital deepening. This is why output per worker grows faster than TFP along the balanced growth path.
+TFP growth raises output directly and also induces capital deepening (more capital per worker). This is why output per worker grows faster than TFP along the balanced growth path.
 
 ### Steady state versus balanced growth
 
@@ -287,8 +284,6 @@ TFP growth raises output directly and also induces capital deepening. This is wh
 - With constant $A$, $k$ and $y$ are constant in steady state
 
 - With growing $A$, $k$ and $y$ grow along the balanced growth path
-
-In both cases, the capital-output ratio is constant in the long run.
 
 ### What the extended Solow model says
 
@@ -311,11 +306,7 @@ If countries have the same TFP, the production function predicts
 > $\frac{y_i}{y_{\mathrm{US}}} = \left(\frac{k_i}{k_{\mathrm{US}}}\right)^\alpha.$
 
 
-The parameter $\alpha$ is not free:
-
-- Under competitive factor markets, $\alpha$ equals capital’s share of income
-
-- The data suggest $\alpha\approx 1/3$
+The data suggest that $\alpha\approx 1/3$.
 
 How much of the observed variation in output per worker can the model then explain?
 
@@ -337,9 +328,9 @@ Output and capital per worker, 2019, at 2017 international prices. Model predict
 
 ### Physical capital explains too little
 
-- With $\alpha=1/3$, the predicted relationship between capital and output per worker is too flat to account for the observed income differences
+- With $\alpha=1/3$, observed differences in physical capital per worker predict much smaller income differences than we see in the data
 
-- A larger $\alpha$, such as $\alpha=2/3$, generates larger predicted income differences and fits the data better mechanically
+- A larger $\alpha$, such as $\alpha=2/3$, generates larger predicted income differences and fits the data better
 
 - But $\alpha=2/3$ would imply that two-thirds of GDP is paid to physical capital, which is inconsistent with observed factor shares
 
@@ -369,7 +360,7 @@ A simple human-capital production function is
 
  where $u$ is years of schooling. If $\psi=0.10$, another year of schooling raises human capital by approximately 10 percent.
 
-The Penn World Table uses the same idea, but allows the assumed return to decline with years of schooling: 
+The [Penn World Table](https://www.rug.nl/ggdc/productivity/pwt/?lang=en) uses the same idea, but allows the assumed return to decline with years of schooling: 
 
 > $h=e^{\phi(u)}, \qquad \phi(u)= \begin{cases} 0.134u, & u\leq 4,\\[1mm] 0.134(4)+0.101(u-4), & 4<u\leq 8,\\[1mm] 0.134(4)+0.101(4)+0.068(u-8), & u>8. \end{cases}$
 
@@ -388,6 +379,8 @@ The recently released PISA 2025 results show substantial declines among Swedish 
 | Mathematics | 464 | $-18$ |
 | Science | 485 | $-8$ |
 
+Source: OECD, PISA 2025.
+
 **If students spend the same number of years in school but acquire fewer skills, has human capital fallen?**
 
 A measure based only on years of schooling will not capture changes in the quality of education. PISA concerns future entrants to the labor force rather than the human capital of today’s workers.
@@ -400,6 +393,8 @@ A measure based only on years of schooling will not capture changes in the quali
 | Sweden | 12.6 | 3.50 | 0.94 |
 | Mexico | 9.6 | 2.85 | 0.82 |
 | Malawi | 6.2 | 2.14 | 0.68 |
+
+Source: Penn World Table 11.0, 2023, and own calculations.
 
 The final column uses $\alpha=1/3$ and reports 
 
@@ -444,40 +439,38 @@ Dividing by population gives
 
 Here $H/N=(H/E)(E/N)$ combines hours per worker and employment per person.
 
-### TFP as a development-accounting residual
+### What do measured inputs predict?
 
-Measure all variables relative to the United States. If productivity were the same in every country, measured inputs would imply 
+Measure each country's variables relative to the United States, so the U.S. value is 1.
 
-> $\widehat{Y/N} = \left(\frac{K}{N}\right)^\alpha h^{1-\alpha} \left(\frac{H}{N}\right)^{1-\alpha}.$
+Suppose that TFP is the same as in the United States. With $\alpha=1/3$, Sweden's measured inputs predict
 
+> $\left(\frac{Y}{N}\right)^{\mathrm{pred}} = 0.991^{1/3} \times 0.915^{2/3} \times 0.846^{2/3} \approx 0.841.$
 
-The productivity needed to match actual GDP per person is therefore 
+The three numbers are Sweden's relative capital per person, human capital and hours worked per person.
 
-> $\frac{A}{A_{\mathrm{US}}} = \frac{Y/N}{\widehat{Y/N}}.$
+Actual GDP per person is $0.818$ relative to the United States. What accounts for the difference?
 
+Source: Penn World Table 11.0, data for 2023, and own calculations.
 
-- Technology and production methods
+### Development accounting: inputs and residual
 
-- Institutions and the allocation of resources
+The implied TFP level is actual GDP per person divided by the level predicted from measured inputs:
 
-- Infrastructure and organizational capital not included in $K$
+> $\frac{A}{A_{\mathrm{US}}} = \frac{(Y/N)^{\mathrm{actual}}}{(Y/N)^{\mathrm{pred}}}$
 
-- Measurement error and omitted inputs
+The first four numeric columns are observed relative levels; the final two are accounting results.
 
-A residual is not, by itself, an explanation.
-
-### Development accounting
-
-What does the production function predict when productivity is assumed to be the same as in the United States?
-
-| Country | Observed $Y/N$ | Observed $K/N$ | Observed $h$ | Observed $H/N$ | Implied $\widehat{Y/N}$ if $A=A_{US}$ | Implied $A/A_{US}$ |
+| Country | $K/N$ | $h$ | $H/N$ | $(Y/N)^{\mathrm{actual}}$ | $(Y/N)^{\mathrm{pred}}$ | $A/A_{\mathrm{US}}$ |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
 | United States | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 |
-| Sweden | 0.818 | 0.991 | 0.915 | 0.846 | 0.841 | 0.973 |
-| Mexico | 0.275 | 0.251 | 0.745 | 0.856 | 0.467 | 0.588 |
-| Malawi | 0.024 | 0.012 | 0.558 | 0.609 | 0.111 | 0.215 |
+| Sweden | 0.991 | 0.915 | 0.846 | 0.818 | 0.841 | 0.973 |
+| Mexico | 0.251 | 0.745 | 0.856 | 0.275 | 0.467 | 0.588 |
+| Malawi | 0.012 | 0.558 | 0.609 | 0.024 | 0.111 | 0.215 |
 
-All variables are relative to the United States in 2023. $H$ denotes total annual hours. Implied GDP per person assumes $A=A_{US}$. The last column is actual divided by implied GDP per person. Source: Penn World Table 11.0 and own calculations.
+All levels are relative to the United States in 2023. $H$ denotes total annual hours worked. Predictions assume $A=A_{\mathrm{US}}$ and $\alpha=1/3$. Source: Penn World Table 11.0 and own calculations.
+
+$A/A_{US}$ may here reflect technology, institutions or unmeasured inputs.
 
 ### One accounting chain across three lectures
 
@@ -548,47 +541,27 @@ Source: Penn World Tables 11.0.
 
 - There is much less evidence of unconditional convergence across all countries over the full postwar period
 
-- A low initial income level is not enough: a country may also have a low steady-state income level
+- A low initial income level does not by itself predict rapid growth: what matters is how far income is below the country's own steady-state level
 
 - The empirical question is therefore whether countries converge after accounting for differences in steady-state determinants
 
 Conditional convergence does not imply that all countries eventually have the same income per worker.
 
-### Exercise: Growth versus development accounting
-
-Suppose a country has low output per worker and subsequently grows rapidly.
-
-How would you distinguish empirically between the following explanations?
-
-1.  Physical-capital deepening
-
-2.  Rising educational attainment
-
-3.  Faster TFP growth
-
-4.  Transitional convergence toward a steady state
-
-Can growth accounting alone establish which of these changes caused the others?
-
 ## Land and exhaustible resources
 
 ### Growth on a finite planet: a current debate
 
-0.48
-
-A warning *“We economists have done the maths: ‘growth’ is a doomed strategy – there is a better way”*
+**A warning** *“We economists have done the maths: ‘growth’ is a doomed strategy – there is a better way”*
 
 Piketty, Stiglitz and coauthors argue that an economy dependent on endless expansion on a finite planet is ecologically unsustainable. [*The Guardian*, June 10, 2026](https://www.theguardian.com/commentisfree/2026/jun/10/economists-maths-growth-doomed-strategy-un-agencies-political-leaders)
 
-0.48
-
-A counterargument *“The shrinking arguments for degrowth”*
+**A counterargument** *“Economic growth isn’t everything for everyone, but it turns out it’s pretty close”*
 
 John Burn-Murdoch argues that innovation and environmental policy can allow GDP to grow while resource use and pollution decline. [*Financial Times*, June 26, 2026](https://www.ft.com/content/5bc6b000-83c5-462b-a368-093f23759043)
 
 Let us focus on a narrower question:
 
-Can technological progress and substitution allow output per person to keep growing as natural resources become scarcer?
+Can technological progress allow output per person to keep growing as natural resources become scarcer?
 
 ### What if an input cannot be reproduced?
 
@@ -604,20 +577,31 @@ What determines whether output per person can continue to grow when one producti
 
 ### Land in fixed supply
 
-Let $D$ denote a fixed quantity of land: 
+Let $D$ denote a fixed quantity of land:
 
 > $Y_t=A_tK_t^\alpha D^\lambda L_t^{1-\alpha-\lambda}, \qquad \alpha+\lambda<1.$
 
+Capital accumulation still satisfies
 
-Growth accounting gives 
+> $K_{t+1}-K_t=sY_t-\delta K_t.$
 
-> $g_Y = g_A+\alpha g_K+\lambda g_D +(1-\alpha-\lambda)g_L.$
+Dividing by $K_t$ gives
 
+> $g_K=s\frac{Y_t}{K_t}-\delta.$
 
-Since $g_D=0$, $g_L=n$, and $g_Y=g_K=\gamma$ on a balanced growth path, 
+On a balanced growth path, capital grows at a constant rate. With constant $s$ and $\delta$, the output-capital ratio must therefore be constant: $g_Y=g_K=\gamma$.
 
-> $g_{Y/L}=\gamma-n = \frac{g_A-\lambda n}{1-\alpha}.$
+### Land in fixed supply: the balanced growth path
 
+> $Y_t=A_tK_t^\alpha D^\lambda L_t^{1-\alpha-\lambda}$
+
+Growth accounting gives
+
+> $g_Y = g_A+\alpha g_K+\lambda g_D +(1-\alpha-\lambda)g_L$
+
+Since $g_D=0$, $g_L=n$, and $g_Y=g_K=\gamma$ on a balanced growth path,
+
+> $g_{Y/L}=\gamma-n = \frac{g_A-\lambda n}{1-\alpha}$
 
 ### Interpreting the role of land
 
@@ -636,21 +620,19 @@ A fixed factor limits growth but does not necessarily eliminate it.
 
 ### An exhaustible natural resource
 
-Let $R_t$ be the remaining resource stock and let the flow used in production be 
-
-> $X_t=uR_t,$
-
- where the extraction rate $u$ is constant. The stock develops according to 
-
-> $R_{t+1}=(1-u)R_t.$
-
-
-Production is 
+Production is now
 
 > $Y_t=A_tK_t^\alpha X_t^\beta L_t^{1-\alpha-\beta}, \qquad \alpha+\beta<1.$
 
+where $X_t$ is the amount of an exhaustible resource used in production.
 
-Since $u$ is constant, the resource flow $X_t$ declines at rate $u$.
+Let $R_t$ be the remaining resource stock at the beginning of period $t$. Assume that a constant fraction $u$ is extracted each period:
+
+> $X_t=uR_t.$
+
+The stock then develops according to
+
+> $R_{t+1}=(1-u)R_t.$
 
 ### Can growth continue as the resource is depleted?
 
@@ -667,22 +649,6 @@ Applying growth accounting to equation (production_resource) gives
 - Depletion and population growth are drags on output per worker
 
 - Positive long-run growth is possible if TFP growth is sufficiently rapid
-
-### From land to Malthus
-
-Our analysis has treated population growth as exogenous.
-
-Malthus instead combined
-
-- land in fixed supply
-
-- diminishing marginal product of labor, and
-
-- population growth that rises with income.
-
-In that setting, productivity improvements may raise population rather than long-run income per person.
-
-We return briefly to this historical benchmark next time when asking why sustained growth in living standards began only relatively recently.
 
 ## Final comments
 
@@ -729,3 +695,4 @@ Next time: preindustrial stagnation, ideas, institutions, and growth at the tech
 - Explained absolute and conditional convergence
 
 - Examined growth with fixed and exhaustible resources
+
