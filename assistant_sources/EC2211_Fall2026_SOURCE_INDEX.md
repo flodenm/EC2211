@@ -39,8 +39,8 @@ This index identifies the authoritative Fall 2026 sources attached to **EC2211 C
 ## Problem sets
 
 
-- **PS1 / PS01 / Problem Set 1:** [PS01.md](Fall_2026/PS01.md) · [PDF](Fall_2026/PDFs/ProblemSet01.pdf)
-- **PS2 / PS02 / Problem Set 2:** [PS02.md](Fall_2026/PS02.md) · [PDF](Fall_2026/PDFs/ProblemSet02.pdf)
+- **PS1 / PS01 / Problem Set 1:** `PS01.md`
+- **PS2 / PS02 / Problem Set 2:** `PS02.md`
 - **PS3 / PS03 / Problem Set 3:** `EC2211_Fall2026_PS03.md`
 - **PS4 / PS04 / Problem Set 4:** `EC2211_Fall2026_PS04.md`
 
