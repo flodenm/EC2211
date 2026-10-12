@@ -7,28 +7,28 @@
 This is an agent-oriented rendering of `main_LN06.tex`. Frame headings follow the lecture source. Figure filenames and notes are retained when present; consult the lecture slides for the visual itself.
 
 
-## From recent events to a short-run model
+## Inflation, business cycles and monetary policy
 
-### A recurring macroeconomic problem
+### The return of high inflation
 
 After the pandemic, inflation rose sharply in many countries.
   Central banks responded by raising policy rates.
 
-  Inflation subsequently declined, while the effects on production and
+  Inflation subsequently declined, while the effects on output and
   employment differed across countries and over time.
 
   This raises three questions:
 - How can a higher interest rate reduce spending and output?
 - How does economic activity affect inflation?
-- Why can stabilizing inflation come at the cost of weaker activity?
+- Why does stabilizing inflation come at the cost of weaker activity?
 
 ### Inflation and the policy rate in Sweden
 
 Inflation rose sharply after the pandemic. The Riksbank subsequently
   raised its policy rate, and inflation later declined.
 
-  This sequence does not by itself establish causality. Our model will help
-  us organize the different shocks and transmission mechanisms involved.
+  Our model will help us organize the different shocks and transmission
+  mechanisms involved.
 
 **Figure source:** `Inflation_PolicyRate_SE.pdf`
 
@@ -40,7 +40,18 @@ Inflation rose sharply after the pandemic. The Riksbank subsequently
 Let $P_t$ denote the aggregate price level. The inflation rate is
   the percentage change in the price level:
 
-$$\boxed{\pi_t=100\times\frac{P_t-P_{t-1}}{P_{t-1}}}$$
+$$\boxed{\pi_t=\frac{P_t-P_{t-1}}{P_{t-1}}}$$
+
+  With monthly data, inflation is typically measured as the percentage
+  change relative to the same month one year earlier:
+
+- In August 2026, CPIF inflation was 0.7 percent
+- In August 2025, CPIF was 122.52
+- In August 2026, CPIF was 123.43
+
+$$\frac{123.43-122.52}{122.52}\approx 0.0074\approx 0.7\%$$
+
+### Interpreting inflation
 
 - Inflation is an increase in the general price level, not an
           increase in the price of one particular good
@@ -69,7 +80,16 @@ Different price indices answer somewhat different questions.
           sharply in the short run. It is one measure of *core inflation*
           used to assess broader inflationary pressure.
 
-  No single measure perfectly captures ``underlying'' inflation.
+- **HICP** is a measure harmonized in the European Union.
+
+### Alternative measures of inflation in Sweden
+
+**Figure source:** `Inflation_Measures_SE.pdf`
+
+Four measures of inflation, annual percentage change. Source: Statistics Sweden.
+
+The measures usually move together, but can diverge when interest rates
+or energy prices change sharply.
 
 ### A model for organizing the discussion
 
@@ -85,10 +105,9 @@ We will combine three relationships:
 ### The route through the textbook
 
 - Inflation is discussed in chapter 8.
-- The output gap follows chapter 9.
+- The output gap is discussed in chapter 9 (but referred to as "short-run output" in the textbook).
 - The IS curve follows the baseline derivation in Chapter 11.
 - The MP line and the Phillips curve follow Chapter 12.
-- Read the selected parts of Chapters 9, 11, and 12 alongside these notes.
 
   Jones later allows consumption to respond to current income. That creates
   multiplier effects. We postpone that extension until we study fiscal policy.
@@ -234,8 +253,9 @@ $$\Delta\widetilde{Y}=-\beta \Delta r$$
 3. Aggregate demand falls.
 4. With sticky prices, firms reduce production and employment.
 
-  Consumption may also respond directly to interest rates, but the investment response is
-  sufficient for the basic IS mechanism.
+  Consumption may also respond directly to the real interest rate. We
+  ignore that channel for now because the investment response alone is
+  sufficient to generate a downward-sloping IS curve.
 
 ### The IS curve in $(\widetilde{Y},r)$ space
 
@@ -341,8 +361,8 @@ IS and MP determine the output gap. How does activity affect inflation?
 
 A simple Phillips curve is
 
-$$\boxed{\pi_t=\pi^e_t+\kappa\widetilde{Y}_t+\sigma_t,
-        \kappa>0}$$
+$$\pi_t=\pi^e_t+\kappa\widetilde{Y}_t+\sigma_t,
+        \qquad \kappa>0$$
 
 - $\pi_t$: inflation during period $t$
 - $\pi^e_t$: inflation expected when relevant prices and wages were set
@@ -360,13 +380,13 @@ $$\pi^e_t=\pi_{t-1}$$
 
   The Phillips curve then becomes
 
-$$\boxed{\pi_t-\pi_{t-1}=\kappa\widetilde{Y}_t+\sigma_t}$$
+$$\pi_t-\pi_{t-1}=\kappa\widetilde{Y}_t+\sigma_t$$
 
 - A positive gap tends to make inflation rise.
 - A negative gap tends to make inflation fall.
 - A positive cost shock can raise inflation even when output is below potential.
 
-  Expectations need not always be backward-looking. Their formation becomes
+  Expectations need not always be backward-looking. How they are formed is
   important for monetary policy.
 
 ## Putting the model together
@@ -399,6 +419,21 @@ Suppose households or firms become more optimistic, so $\alpha_t$ rises.
   The economy moves up along the new IS curve and the increase in activity
   is smaller.
 
+### A demand shock with an unchanged real rate
+
+**Diagram:** Two panels trace the effects of a positive aggregate-demand shock.
+
+1. In the IS–MP panel, IS shifts right from $IS_0$ to $IS_1$ while the
+   horizontal MP line, and hence the real rate $\bar r$, remains unchanged.
+   The economy moves from $A$, where the output gap is zero, to $B$, where
+   the output gap is positive: $\widetilde{Y}_B>0$.
+2. In the Phillips-curve panel, the Phillips curve is unchanged. The economy
+   moves from $A$ to $B$ along PC, so inflation rises relative to expectations
+   by $\kappa\widetilde{Y}_B$.
+
+The positive demand shock therefore shifts IS. If the real rate remains
+unchanged, the resulting positive output gap raises inflation.
+
 ### A cost shock creates a policy dilemma
 
 Suppose energy or other input costs rise unexpectedly: $\sigma_t>0$.
@@ -412,6 +447,22 @@ Suppose energy or other input costs rise unexpectedly: $\sigma_t>0$.
 
   The model does not tell the central bank how strongly to respond. We add
   a monetary-policy rule in LN7.
+
+### Responding to a cost shock
+
+**Diagram:** Three panels separate the shock from the monetary-policy response.
+
+1. An oil-price shock shifts the Phillips curve upward from $PC_0$ to $PC_1$.
+   At a zero output gap, the economy moves from $A$ to $B$ and inflation rises
+   relative to expectations by $\sigma_t$.
+2. The central bank raises the real rate from $\bar r$ to $r_1$. In the IS–MP
+   panel, MP shifts upward from $MP_0$ to $MP_1$ and the economy moves from
+   $B$ to $C$, creating a negative output gap $\widetilde{Y}_C$.
+3. In the Phillips-curve panel, the economy moves down along the new curve
+   $PC_1$ from $B$ to $C$. Weaker activity partly offsets the rise in inflation.
+
+A tighter monetary-policy stance reduces inflation after the shock, but at
+the cost of a negative output gap.
 
 ### What this first version leaves for later
 
@@ -435,7 +486,7 @@ Consider each change separately.
 
 - **Output gap**: actual output can deviate from potential in the short run
 - **IS**: a higher real rate reduces investment, demand and output
-- **MP**: given expected inflation, the policy rate helps determine the real rate
+- **MP**: given expected inflation, the policy rate determines the real rate
 - **PC**: stronger activity raises inflation relative to expectations
 - **Policy dilemma**: a cost shock can raise inflation while weakening activity
 
