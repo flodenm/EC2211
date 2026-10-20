@@ -29,8 +29,8 @@ This index identifies the authoritative Fall 2026 sources attached to **EC2211 C
 - **LN5b / LN05b / Lecture 5b:** `LN05b_Consumption_and_Investment.md`
 - **LN6 / LN06 / Lecture 6:** `LN06_IS_MP_PC.md`
 - **LN7 / LN07 / Lecture 7:** `LN07_AS_AD.md`
-- **LN8 / LN08 / Lecture 8:** `LN08_Money_and_Monetary_Policy.md`
-- **LN9 / LN09 / Lecture 9:** `LN09_Fiscal_Policy.md`
+- **LN8 / LN08 / Lecture 8 / Monetary Policy in Practice:** `LN08_Money_and_Monetary_Policy.md`
+- **LN9 / LN09 / Lecture 9 / Fiscal Policy and Government Debt:** `LN09_Fiscal_Policy.md`
 - **LN10 / Lecture 10:** `LN10_Exchange_Rates.md`
 - **LN11a / Lecture 11a:** `LN11a_International_Capital_Flows.md`
 - **LN11b / Lecture 11b:** `LN11b_International_Capital_Flows_and_Policy.md`
@@ -43,7 +43,10 @@ This index identifies the authoritative Fall 2026 sources attached to **EC2211 C
 - **PS2 / PS02 / Problem Set 2:** `PS02.md`
 - **PS3 / PS03 / Problem Set 3:** `EC2211_Fall2026_PS03.md`
 - **PS4 / PS04 / Problem Set 4:** `EC2211_Fall2026_PS04.md`
+- **PS5 / PS05 / Extra Problem Set / Extra exercises:** `EC2211_Fall2026_PS05.md`
 
+
+LN8–LN10 and PS3–PS5 were updated from the instructor's supplied LaTeX files on October 20, 2026. PS5 is titled **Extra Problem Set**: it is not associated with a specific seminar, and the source says some exercises may be covered in class on October 26.
 
 The indexed problem-set sources contain questions only and do not contain suggested solutions. Apply the guided-help protocol when students request help with them.
 
