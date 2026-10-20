@@ -82,6 +82,8 @@ questions that are not attempts to solve a problem.
 - Problem set 2 builds on material from the first four lectures.
 - Problem set 3 builds on material from the first six lectures but has a focus on material from lecture 5 and 6.
 - Problem set 4 builds on material from the first nine lectures.
+- PS5 is titled Extra Problem Set and is not linked to a specific seminar. It includes debt sustainability, debt dynamics, imports and the multiplier, international monetary shocks, currency crises, the U.S. trade deficit and transition economies.
+- Preserve exercise cross-references as supplied. If a cross-reference is inconsistent with the current exercise order, identify the ambiguity rather than silently using an unrelated question. In PS3, extra exercise “Consumption and savings again”, part (b) refers to exercise 2 even though the two-period consumption model is now exercise 3.
 
 ## 6. Assessed work
 

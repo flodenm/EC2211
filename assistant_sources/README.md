@@ -19,7 +19,7 @@ This directory contains machine-readable course material for the EC2211 course a
 ## Included Fall 2026 material
 
 - LN00a–LN11, including separate files for LN5a/LN5b and LN11a/LN11b.
-- Problem Sets 1–4, without suggested solutions.
+- Problem Sets 1–4 and the Extra Problem Set (PS5), without suggested solutions.
 - `EC2211_Fall2026_SOURCE_INDEX.md` maps common lecture and problem-set aliases to exact filenames.
 
 ## Included Fall 2025 material
